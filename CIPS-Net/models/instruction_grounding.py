@@ -77,9 +77,15 @@ class PathologyGraph(nn.Module):
         """
         Initialize graph structure based on domain knowledge.
         Based on the co-occurrence analysis from the dataset.
+        Handles any number of classes including num_classes=1 for binary segmentation.
         """
+        # For binary segmentation (num_classes=1), only self-loop is needed
+        if self.num_classes == 1:
+            self.adjacency_matrix[0, 0, 2] = 1.0  # Self-similarity
+            return
+        
         # Co-occurrence relationships (from dataset analysis)
-        # High co-occurrence pairs
+        # High co-occurrence pairs - only use if indices exist
         co_occur_pairs = [
             (0, 1),  # Neoplastic - Inflammatory
             (0, 2),  # Neoplastic - Connective_Soft_tissue
@@ -88,8 +94,9 @@ class PathologyGraph(nn.Module):
         ]
         
         for i, j in co_occur_pairs:
-            self.adjacency_matrix[i, j, 0] = 1.0  # Co-occurrence
-            self.adjacency_matrix[j, i, 0] = 1.0
+            if i < self.num_classes and j < self.num_classes:
+                self.adjacency_matrix[i, j, 0] = 1.0  # Co-occurrence
+                self.adjacency_matrix[j, i, 0] = 1.0
         
         # Hierarchical relationships
         hierarchical_pairs = [
@@ -97,7 +104,8 @@ class PathologyGraph(nn.Module):
         ]
         
         for i, j in hierarchical_pairs:
-            self.adjacency_matrix[i, j, 1] = 1.0
+            if i < self.num_classes and j < self.num_classes:
+                self.adjacency_matrix[i, j, 1] = 1.0
         
         # All classes have self-loops
         for i in range(self.num_classes):
