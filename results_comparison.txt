@@ -1,0 +1,9 @@
+Model: (common for all the comparisons)
+
+model_name: CIPS-Net
+image_encoder: vit_b_16
+batch_size: 32
+
+
+1. distilbert-base-uncased: 0.8020 (2) - stopped after 5 epochs since no improvement was observed so far
+2. dmis-lab/biobert-base-cased-v1.1 - 0.8020(3)
