@@ -1,0 +1,99 @@
+image_id,image_path,classes,organ,classes_clean,instruction
+0,1_Breast_fold_1_0000_img.png,Connective_Soft_tissue,Breast,Connective_Soft_tissue,This Breast falls into Connective_Soft_tissue.
+0,1_Breast_fold_1_0000_img.png,Inflammatory,Breast,Inflammatory,The Breast histopathology reveals Inflammatory.
+0,1_Breast_fold_1_0000_img.png,Neoplastic,Breast,Neoplastic,Here we have a Breast with Neoplastic.
+0,1_Breast_fold_1_0000_img.png,Connective_Soft_tissue;Inflammatory,Breast,Connective_Soft_tissue and Inflammatory,Outline pathological margins of Connective_Soft_tissue and Inflammatory within the Breast.
+0,1_Breast_fold_1_0000_img.png,Connective_Soft_tissue;Neoplastic,Breast,Connective_Soft_tissue and Neoplastic,Trace borders of the lesion within the Breast.
+0,1_Breast_fold_1_0000_img.png,Inflammatory;Neoplastic,Breast,Inflammatory and Neoplastic,Define exact site of Breast tissue degeneration from Inflammatory and Neoplastic.
+0,1_Breast_fold_1_0000_img.png,Connective_Soft_tissue;Inflammatory;Neoplastic,Breast,Connective_Soft_tissue and Inflammatory and Neoplastic,The Breast slide is labeled with Connective_Soft_tissue and Inflammatory and Neoplastic.
+1,1_Breast_fold_1_0001_img.png,Connective_Soft_tissue,Breast,Connective_Soft_tissue,Microscopy of the Breast reveals features consistent with Connective_Soft_tissue.
+1,1_Breast_fold_1_0001_img.png,Inflammatory,Breast,Inflammatory,Delineate abnormal Breast regions demonstrating Inflammatory.
+1,1_Breast_fold_1_0001_img.png,Neoplastic,Breast,Neoplastic,Circle pathology-concentrated Breast segments.
+1,1_Breast_fold_1_0001_img.png,Connective_Soft_tissue;Inflammatory,Breast,Connective_Soft_tissue and Inflammatory,This view of the Breast includes Connective_Soft_tissue and Inflammatory.
+1,1_Breast_fold_1_0001_img.png,Connective_Soft_tissue;Neoplastic,Breast,Connective_Soft_tissue and Neoplastic,Segment areas in Breast most indicative of Connective_Soft_tissue and Neoplastic.
+1,1_Breast_fold_1_0001_img.png,Inflammatory;Neoplastic,Breast,Inflammatory and Neoplastic,This Breast entry shows Inflammatory and Neoplastic.
+1,1_Breast_fold_1_0001_img.png,Connective_Soft_tissue;Inflammatory;Neoplastic,Breast,Connective_Soft_tissue and Inflammatory and Neoplastic,Distinguish Connective_Soft_tissue and Inflammatory and Neoplastic from other conditions within the Breast.
+2,1_Breast_fold_1_0002_img.png,Connective_Soft_tissue,Breast,Connective_Soft_tissue,The Breast slide demonstrates Connective_Soft_tissue.
+2,1_Breast_fold_1_0002_img.png,Inflammatory,Breast,Inflammatory,Outline Inflammatory-related changes visible in the Breast tissue.
+2,1_Breast_fold_1_0002_img.png,Neoplastic,Breast,Neoplastic,Delineate microscopic pathology in Breast for Neoplastic.
+2,1_Breast_fold_1_0002_img.png,Connective_Soft_tissue;Inflammatory,Breast,Connective_Soft_tissue and Inflammatory,The Breast pathology reveals Connective_Soft_tissue and Inflammatory.
+2,1_Breast_fold_1_0002_img.png,Connective_Soft_tissue;Neoplastic,Breast,Connective_Soft_tissue and Neoplastic,Locate the Breast sections altered by Connective_Soft_tissue and Neoplastic.
+2,1_Breast_fold_1_0002_img.png,Inflammatory;Neoplastic,Breast,Inflammatory and Neoplastic,Localize the classesd Breast sections showing Inflammatory and Neoplastic patterns.
+2,1_Breast_fold_1_0002_img.png,Connective_Soft_tissue;Inflammatory;Neoplastic,Breast,Connective_Soft_tissue and Inflammatory and Neoplastic,"Based on the visual features, classify this Breast: Connective_Soft_tissue and Inflammatory and Neoplastic."
+3,1_Breast_fold_1_0003_img.png,Connective_Soft_tissue,Breast,Connective_Soft_tissue,Looks like Connective_Soft_tissue in the Breast.
+3,1_Breast_fold_1_0003_img.png,Inflammatory,Breast,Inflammatory,This Breast is described with Inflammatory.
+3,1_Breast_fold_1_0003_img.png,Neoplastic,Breast,Neoplastic,Histological morphology suggests Neoplastic in the Breast.
+3,1_Breast_fold_1_0003_img.png,Connective_Soft_tissue;Inflammatory,Breast,Connective_Soft_tissue and Inflammatory,This Breast case belongs to Connective_Soft_tissue and Inflammatory.
+3,1_Breast_fold_1_0003_img.png,Connective_Soft_tissue;Neoplastic,Breast,Connective_Soft_tissue and Neoplastic,This Breast corresponds to Connective_Soft_tissue and Neoplastic.
+3,1_Breast_fold_1_0003_img.png,Inflammatory;Neoplastic,Breast,Inflammatory and Neoplastic,Microscopy of the Breast reveals features consistent with Inflammatory and Neoplastic.
+3,1_Breast_fold_1_0003_img.png,Connective_Soft_tissue;Inflammatory;Neoplastic,Breast,Connective_Soft_tissue and Inflammatory and Neoplastic,Recognize the class of this Breast: Connective_Soft_tissue and Inflammatory and Neoplastic.
+4,1_Breast_fold_1_0004_img.png,Connective_Soft_tissue,Breast,Connective_Soft_tissue,This Breast belongs to group Connective_Soft_tissue.
+4,1_Breast_fold_1_0004_img.png,Inflammatory,Breast,Inflammatory,Segment areas in Breast most indicative of Inflammatory.
+4,1_Breast_fold_1_0004_img.png,Neoplastic,Breast,Neoplastic,The Breast corresponds to the class Neoplastic.
+4,1_Breast_fold_1_0004_img.png,Connective_Soft_tissue;Inflammatory,Breast,Connective_Soft_tissue and Inflammatory,Highlight diagnostic zones inside the Breast with Connective_Soft_tissue and Inflammatory signs.
+4,1_Breast_fold_1_0004_img.png,Connective_Soft_tissue;Neoplastic,Breast,Connective_Soft_tissue and Neoplastic,Delineate zones in the Breast consistent with Connective_Soft_tissue and Neoplastic.
+4,1_Breast_fold_1_0004_img.png,Inflammatory;Neoplastic,Breast,Inflammatory and Neoplastic,Locate abnormalities in the Breast that suggest Inflammatory and Neoplastic.
+4,1_Breast_fold_1_0004_img.png,Connective_Soft_tissue;Inflammatory;Neoplastic,Breast,Connective_Soft_tissue and Inflammatory and Neoplastic,Histological features of the Breast are consistent with Connective_Soft_tissue and Inflammatory and Neoplastic.
+5,1_Breast_fold_1_0005_img.png,Connective_Soft_tissue,Breast,Connective_Soft_tissue,The Breast specimen exhibits Connective_Soft_tissue.
+5,1_Breast_fold_1_0005_img.png,Inflammatory,Breast,Inflammatory,The Breast image shows Inflammatory.
+5,1_Breast_fold_1_0005_img.png,Neoplastic,Breast,Neoplastic,Tissue findings in the Breast correspond to Neoplastic.
+5,1_Breast_fold_1_0005_img.png,Connective_Soft_tissue;Inflammatory,Breast,Connective_Soft_tissue and Inflammatory,Trace abnormal pathology centers in Breast.
+5,1_Breast_fold_1_0005_img.png,Connective_Soft_tissue;Neoplastic,Breast,Connective_Soft_tissue and Neoplastic,The Breast displays morphological changes attributable to Connective_Soft_tissue and Neoplastic.
+5,1_Breast_fold_1_0005_img.png,Inflammatory;Neoplastic,Breast,Inflammatory and Neoplastic,Highlight infiltration depth of Inflammatory and Neoplastic in Breast.
+5,1_Breast_fold_1_0005_img.png,Connective_Soft_tissue;Inflammatory;Neoplastic,Breast,Connective_Soft_tissue and Inflammatory and Neoplastic,Map classesd tissue distribution in the Breast for Connective_Soft_tissue and Inflammatory and Neoplastic.
+6,1_Breast_fold_1_0006_img.png,Connective_Soft_tissue,Breast,Connective_Soft_tissue,This Breast is an example of Connective_Soft_tissue.
+6,1_Breast_fold_1_0006_img.png,Inflammatory,Breast,Inflammatory,Microscopic study of the Breast demonstrates Inflammatory.
+6,1_Breast_fold_1_0006_img.png,Neoplastic,Breast,Neoplastic,Trace borders of the lesion within the Breast.
+6,1_Breast_fold_1_0006_img.png,Connective_Soft_tissue;Inflammatory,Breast,Connective_Soft_tissue and Inflammatory,Delineate the Breast areas demonstrating Connective_Soft_tissue and Inflammatory-like changes.
+6,1_Breast_fold_1_0006_img.png,Connective_Soft_tissue;Neoplastic,Breast,Connective_Soft_tissue and Neoplastic,This is a Breast image. What is its label? Connective_Soft_tissue and Neoplastic.
+6,1_Breast_fold_1_0006_img.png,Inflammatory;Neoplastic,Breast,Inflammatory and Neoplastic,Outline Inflammatory and Neoplastic-related changes visible in the Breast tissue.
+6,1_Breast_fold_1_0006_img.png,Connective_Soft_tissue;Inflammatory;Neoplastic,Breast,Connective_Soft_tissue and Inflammatory and Neoplastic,Segment affected portions of the Breast where Connective_Soft_tissue and Inflammatory and Neoplastic is present.
+7,1_Breast_fold_1_0007_img.png,Connective_Soft_tissue,Breast,Connective_Soft_tissue,Specify where Connective_Soft_tissue can be seen in the Breast slide.
+7,1_Breast_fold_1_0007_img.png,Inflammatory,Breast,Inflammatory,This Breast slide is Inflammatory.
+7,1_Breast_fold_1_0007_img.png,Neoplastic,Breast,Neoplastic,Trace Neoplastic distribution within the Breast.
+7,1_Breast_fold_1_0007_img.png,Connective_Soft_tissue;Inflammatory,Breast,Connective_Soft_tissue and Inflammatory,This Breast falls under Connective_Soft_tissue and Inflammatory.
+7,1_Breast_fold_1_0007_img.png,Connective_Soft_tissue;Neoplastic,Breast,Connective_Soft_tissue and Neoplastic,Highlight focal lesions in Breast from Connective_Soft_tissue and Neoplastic.
+7,1_Breast_fold_1_0007_img.png,Inflammatory;Neoplastic,Breast,Inflammatory and Neoplastic,The Breast has class Inflammatory and Neoplastic.
+7,1_Breast_fold_1_0007_img.png,Connective_Soft_tissue;Inflammatory;Neoplastic,Breast,Connective_Soft_tissue and Inflammatory and Neoplastic,Sections of the Breast are characterized by Connective_Soft_tissue and Inflammatory and Neoplastic.
+8,1_Breast_fold_1_0008_img.png,Connective_Soft_tissue,Breast,Connective_Soft_tissue,Mark pathological signatures of Connective_Soft_tissue within the Breast.
+8,1_Breast_fold_1_0008_img.png,Inflammatory,Breast,Inflammatory,Trace abnormal pathology centers in Breast.
+8,1_Breast_fold_1_0008_img.png,Neoplastic,Breast,Neoplastic,Findings within the Breast are consistent with Neoplastic.
+8,1_Breast_fold_1_0008_img.png,Connective_Soft_tissue;Inflammatory,Breast,Connective_Soft_tissue and Inflammatory,Highlight the spread of Connective_Soft_tissue and Inflammatory across the Breast.
+8,1_Breast_fold_1_0008_img.png,Connective_Soft_tissue;Neoplastic,Breast,Connective_Soft_tissue and Neoplastic,Delineate tissue abnormalities inside the Breast for Connective_Soft_tissue and Neoplastic.
+8,1_Breast_fold_1_0008_img.png,Inflammatory;Neoplastic,Breast,Inflammatory and Neoplastic,Delineate the spread of abnormal cells in Breast.
+8,1_Breast_fold_1_0008_img.png,Connective_Soft_tissue;Inflammatory;Neoplastic,Breast,Connective_Soft_tissue and Inflammatory and Neoplastic,The pathology report notes Connective_Soft_tissue and Inflammatory and Neoplastic in the Breast.
+9,1_Breast_fold_1_0009_img.png,Connective_Soft_tissue,Breast,Connective_Soft_tissue,The Breast slides are positive for Connective_Soft_tissue.
+9,1_Breast_fold_1_0009_img.png,Inflammatory,Breast,Inflammatory,The Breast exhibits tissue alterations due to Inflammatory.
+9,1_Breast_fold_1_0009_img.png,Neoplastic,Breast,Neoplastic,Circle nodular growth inside the Breast related to Neoplastic.
+9,1_Breast_fold_1_0009_img.png,Connective_Soft_tissue;Inflammatory,Breast,Connective_Soft_tissue and Inflammatory,Looks like Connective_Soft_tissue and Inflammatory in the Breast.
+9,1_Breast_fold_1_0009_img.png,Connective_Soft_tissue;Neoplastic,Breast,Connective_Soft_tissue and Neoplastic,The Breast slide is labeled with Connective_Soft_tissue and Neoplastic.
+9,1_Breast_fold_1_0009_img.png,Inflammatory;Neoplastic,Breast,Inflammatory and Neoplastic,We see Inflammatory and Neoplastic in the Breast.
+9,1_Breast_fold_1_0009_img.png,Connective_Soft_tissue;Inflammatory;Neoplastic,Breast,Connective_Soft_tissue and Inflammatory and Neoplastic,Circle the abnormal Breast areas where Connective_Soft_tissue and Inflammatory and Neoplastic are suspected.
+10,1_Breast_fold_1_0010_img.png,Connective_Soft_tissue,Breast,Connective_Soft_tissue,This Breast is grouped as Connective_Soft_tissue.
+10,1_Breast_fold_1_0010_img.png,Inflammatory,Breast,Inflammatory,Does this Breast tissue match Inflammatory?
+10,1_Breast_fold_1_0010_img.png,Neoplastic,Breast,Neoplastic,Slide preparation from the Breast demonstrates Neoplastic.
+10,1_Breast_fold_1_0010_img.png,Connective_Soft_tissue;Inflammatory,Breast,Connective_Soft_tissue and Inflammatory,This Breast falls into the class Connective_Soft_tissue and Inflammatory.
+10,1_Breast_fold_1_0010_img.png,Connective_Soft_tissue;Neoplastic,Breast,Connective_Soft_tissue and Neoplastic,"In this sample, the Breast has Connective_Soft_tissue and Neoplastic."
+10,1_Breast_fold_1_0010_img.png,Inflammatory;Neoplastic,Breast,Inflammatory and Neoplastic,You can observe Inflammatory and Neoplastic in the Breast.
+10,1_Breast_fold_1_0010_img.png,Connective_Soft_tissue;Inflammatory;Neoplastic,Breast,Connective_Soft_tissue and Inflammatory and Neoplastic,Decide whether the Breast corresponds to Connective_Soft_tissue and Inflammatory and Neoplastic.
+11,1_Breast_fold_1_0011_img.png,Connective_Soft_tissue,Breast,Connective_Soft_tissue,The Breast has findings of Connective_Soft_tissue.
+11,1_Breast_fold_1_0011_img.png,Inflammatory,Breast,Inflammatory,Examination of the Breast tissue indicates Inflammatory.
+11,1_Breast_fold_1_0011_img.png,Neoplastic,Breast,Neoplastic,Circle proliferative activity zones inside Breast.
+11,1_Breast_fold_1_0011_img.png,Connective_Soft_tissue;Inflammatory,Breast,Connective_Soft_tissue and Inflammatory,Mark pathological compartments within Breast.
+11,1_Breast_fold_1_0011_img.png,Connective_Soft_tissue;Neoplastic,Breast,Connective_Soft_tissue and Neoplastic,Isolate hyperplastic zones within Breast linked to Connective_Soft_tissue and Neoplastic.
+11,1_Breast_fold_1_0011_img.png,Inflammatory;Neoplastic,Breast,Inflammatory and Neoplastic,Mark areas in the Breast that may correspond to Inflammatory and Neoplastic.
+11,1_Breast_fold_1_0011_img.png,Connective_Soft_tissue;Inflammatory;Neoplastic,Breast,Connective_Soft_tissue and Inflammatory and Neoplastic,The Breast has been categorized as Connective_Soft_tissue and Inflammatory and Neoplastic.
+12,1_Breast_fold_1_0012_img.png,Connective_Soft_tissue,Breast,Connective_Soft_tissue,Trace areas in the Breast that reflect Connective_Soft_tissue.
+12,1_Breast_fold_1_0012_img.png,Inflammatory,Breast,Inflammatory,Provide detailed outline of Breast lesion margins from Inflammatory.
+12,1_Breast_fold_1_0012_img.png,Neoplastic,Breast,Neoplastic,The Breast is under category Neoplastic.
+12,1_Breast_fold_1_0012_img.png,Connective_Soft_tissue;Inflammatory,Breast,Connective_Soft_tissue and Inflammatory,This Breast belongs to group Connective_Soft_tissue and Inflammatory.
+12,1_Breast_fold_1_0012_img.png,Connective_Soft_tissue;Neoplastic,Breast,Connective_Soft_tissue and Neoplastic,The Breast region contains Connective_Soft_tissue and Neoplastic.
+12,1_Breast_fold_1_0012_img.png,Inflammatory;Neoplastic,Breast,Inflammatory and Neoplastic,Mark granular details of Breast indicative of Inflammatory and Neoplastic.
+12,1_Breast_fold_1_0012_img.png,Connective_Soft_tissue;Inflammatory;Neoplastic,Breast,Connective_Soft_tissue and Inflammatory and Neoplastic,The Breast has been annotated as Connective_Soft_tissue and Inflammatory and Neoplastic.
+13,1_Breast_fold_1_0013_img.png,Connective_Soft_tissue,Breast,Connective_Soft_tissue,Segment classesd structural areas of Breast from Connective_Soft_tissue.
+13,1_Breast_fold_1_0013_img.png,Inflammatory,Breast,Inflammatory,Localize lesions or nodules in the Breast linked with Inflammatory.
+13,1_Breast_fold_1_0013_img.png,Neoplastic,Breast,Neoplastic,Categorize this Breast into Neoplastic.
+13,1_Breast_fold_1_0013_img.png,Connective_Soft_tissue;Inflammatory,Breast,Connective_Soft_tissue and Inflammatory,The Breast has been categorized as Connective_Soft_tissue and Inflammatory.
+13,1_Breast_fold_1_0013_img.png,Connective_Soft_tissue;Neoplastic,Breast,Connective_Soft_tissue and Neoplastic,Mark pathological tissue heterogeneity inside Breast.
+13,1_Breast_fold_1_0013_img.png,Inflammatory;Neoplastic,Breast,Inflammatory and Neoplastic,Histopathology confirms Inflammatory and Neoplastic involving the Breast.
+13,1_Breast_fold_1_0013_img.png,Connective_Soft_tissue;Inflammatory;Neoplastic,Breast,Connective_Soft_tissue and Inflammatory and Neoplastic,This Breast has been identified as Connective_Soft_tissue and Inflammatory and Neoplastic.
