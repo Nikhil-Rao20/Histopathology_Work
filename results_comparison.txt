@@ -6,4 +6,4 @@ batch_size: 32
 
 
 1. distilbert-base-uncased: 0.8020 (2) - stopped after 5 epochs since no improvement was observed so far
-2. dmis-lab/biobert-base-cased-v1.1 - 0.8020(3)
+2. dmis-lab/biobert-base-cased-v1.1 - 0.8020 (3)

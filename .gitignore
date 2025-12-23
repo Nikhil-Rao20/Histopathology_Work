@@ -211,3 +211,4 @@ Dataset/multi_images/*
 Dataset/multi_masks/*
 
 checkpoints/*
+*.pth
