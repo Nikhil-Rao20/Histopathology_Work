@@ -1,0 +1,48 @@
+{
+  "CoNSeP": {
+    "status": "requires_dataset_loader",
+    "class_mapping": {
+      "2": 1,
+      "3": 4,
+      "4": 0,
+      "5": 2
+    },
+    "text_variants": {
+      "per_image_text": {
+        "display_name": "Per-Image Text",
+        "status": "pending"
+      },
+      "common_text": {
+        "display_name": "Common Text",
+        "status": "pending"
+      },
+      "no_text": {
+        "display_name": "No Text",
+        "status": "pending"
+      }
+    }
+  },
+  "MoNuSAC": {
+    "status": "requires_dataset_loader",
+    "class_mapping": {
+      "Epithelial": 4,
+      "Lymphocyte": 1,
+      "Macrophage": 1,
+      "Neutrophil": 1
+    },
+    "text_variants": {
+      "per_image_text": {
+        "display_name": "Per-Image Text",
+        "status": "pending"
+      },
+      "common_text": {
+        "display_name": "Common Text",
+        "status": "pending"
+      },
+      "no_text": {
+        "display_name": "No Text",
+        "status": "pending"
+      }
+    }
+  }
+}

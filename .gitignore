@@ -188,16 +188,10 @@ cython_debug/
 #  you could uncomment the following to ignore the entire vscode folder
 # .vscode/
 
-# Ruff stuff:
 .ruff_cache/
 
-# PyPI configuration file
 .pypirc
 
-# Cursor
-#  Cursor is an AI-powered code editor. `.cursorignore` specifies files/directories to
-#  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
-#  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
 
@@ -207,9 +201,30 @@ marimo/_lsp/
 __marimo__/
 
 
+
+# Ignore only the Histopathology_Datasets_Official folder
+Histopathology_Datasets_Official/
+
+# Ignore dataset images and masks, but not the folder itself
 Dataset/multi_images/*
 Dataset/multi_masks/*
 
+# Ignore checkpoints except tracked subfolders
 checkpoints/*
+!checkpoints/hovernet/
+ImageNet-ResNet50-Preact_pytorch.tar
+# Ignore .pth files in checkpoints, but allow tracked ones
+checkpoints/*.pth
+PanNuke_Preprocess/
 *.pth
-*
+# Do NOT ignore all files! Allow .ipynb and other files to be tracked
+!*.ipynb
+!*.py
+!*.md
+!*.txt
+!*.json
+!*.csv
+!*.yaml
+!*.yml
+
+

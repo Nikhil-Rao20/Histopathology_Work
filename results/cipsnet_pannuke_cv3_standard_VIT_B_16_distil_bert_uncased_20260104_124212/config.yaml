@@ -1,0 +1,45 @@
+batch_size: 16
+class_frequencies:
+- 0.53
+- 0.523
+- 0.777
+- 0.029
+- 0.193
+class_names:
+- Neoplastic
+- Inflammatory
+- Connective_Soft_tissue
+- Dead
+- Epithelial
+class_weights:
+- 0.21082042848920296
+- 0.21364211142943526
+- 0.14380295253121433
+- 3.8527994869041087
+- 0.5789350206460385
+dataset_path: PanNuke_Preprocess
+dice_weight: 1.0
+embed_dim: 768
+experiment_name: cipsnet_pannuke_cv3_standard
+focal_alpha: null
+focal_gamma: 2.0
+focal_weight: 1.0
+img_encoder: vit_b_16
+img_size: 224
+learning_rate: 0.0001
+loss_type: standard
+mean:
+- 0.485
+- 0.456
+- 0.406
+num_classes: 5
+num_epochs: 50
+num_folds: 3
+num_workers: 0
+std:
+- 0.229
+- 0.224
+- 0.225
+text_encoder: distilbert-base-uncased
+timestamp: '20260104_124212'
+weight_decay: 1.0e-05

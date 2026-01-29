@@ -1,0 +1,135 @@
+{'img1':Colon
+'id':1
+'text': The Colon biopsy indicates Epithelial and Inflammatory and Neoplastic
+'dice Inflammatory':0.8070,
+'dice Epithelial': 0.9764,
+'pixel accuracy':95.79%
+}
+
+{
+'img2':Esophagus,
+'id':2
+'text':This Esophagus example is Connective_Soft_tissue and Inflammatory
+'dice Connective_Soft_tissue': 1.0000
+'pixel accuracy':100%
+'dice Inflammatory': 0 and even the image doesnt has Inflammatory
+}
+
+{
+'img3': 'Breast'
+'id":3
+'text':Specify where Connective_Soft_tissue and Epithelial and Inflammatory and Neoplastic can be seen in the Breast slide.
+'dice Connective_Soft_tissue':0.9829
+'dice Epithelial': 0.7233
+'pixel accuracy':96.77%
+Inflammatory and Neoplastic are not present and the model also not detected them
+}
+
+{
+'img4':Colon
+'id':4
+'text':This Colon slide is Connective_Soft_tissue and Epithelial and Inflammatory
+dice Inflammatory: 0.7095
+dice Connective_Soft_tissue: 0.990
+pixel accuracy: 97.83%
+epithelial not present
+}
+
+{
+img5: Baldder
+id: 5
+text: Highlight necrotic spread within Bladder due to Inflammatory.
+dice Inflammatory: 1.000
+pixel accuracy: 100%
+}
+
+{
+img6: Bile Duct
+id: 6
+text: Circle structural damage in Bile-duct seen with Neoplastic.
+dice Neoplastic: 1.000
+pixel accuracy: 100%
+}
+
+{
+img: Esophagus
+id:7
+text: The Esophagus histopathology reveals Connective_Soft_tissue and Neoplastic
+dice Neoplastic: 0.9975
+dice Connective_Soft_tissue: 0.9777
+pixel accuracy: 99.55%
+}
+
+{
+img: Colon
+id:8
+text:The Colon histology demonstrates clear evidence of Epithelial.
+dice epithelial: 1.0
+pixel accuracy 100%
+}
+
+{
+img: Colon
+id:9
+text: Circle pathological accumulation inside Colon for Connective_Soft_tissue and Epithelial and Inflammatory and Neoplastic.
+dice Inflammatory: 0.6173
+dice Connective_Soft_tissue: 0.3637
+dice epithelial: 0.9002
+pixel accuracy: 76.40%
+neoplastic is not present and not detected
+}
+
+{
+img: headneck tissue
+id:10
+text: Mark the suspicious HeadNeck tissue indicative of Connective_Soft_tissue and Epithelial and Neoplastic
+dice neoplastic: 1.000
+no Connective_Soft_tissue and epithelial are present and either are not detected by model
+}
+
+{
+img: Breast
+id:11
+text: The Breast has class Connective_Soft_tissue and Inflammatory and Neoplastic.
+dice Inflammatory: 0.7444
+dice Connective_Soft_tissue: 0.8367
+pixel accuracy: 80.07%
+no neoplastic present and not detected by the model
+}
+
+{
+img: Breast
+id:12
+text: In this Breast, we find Epithelial.
+dice epithelial: 1.00
+pixel accuracy:100%
+}
+
+{
+img: Colon
+id:13
+text:On histological review, the Colon demonstrates Connective_Soft_tissue and Epithelial
+dice Connective_Soft_tissue: 1.0
+dice epithelial: 1.0
+pixel accuracy:100%
+}
+
+{
+img: Bile Duct
+id: 14
+text: Highlight abnormal Bile-duct morphology related to Connective_Soft_tissue and Epithelial and Inflammatory and Neoplastic
+dice Inflammatory: 0.8454
+dice Connective_Soft_tissue: 0.8085
+dice epithelial: 0.9862
+pixel accuracy: 95.41%
+neoplastic is not present and not detected by the model
+}
+
+{
+'img: Colom
+id: 15
+text: This Colon tissue corresponds to Epithelial and Inflammatory.
+dice Inflammatory: 0.9137
+dice epithelial: 0.9412
+pixel accuracy: 93.00%
+}

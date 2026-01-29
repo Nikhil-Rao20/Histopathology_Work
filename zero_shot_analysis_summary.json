@@ -1,0 +1,74 @@
+{
+  "pannuke_classes": {
+    "0": "Neoplastic",
+    "1": "Inflammatory",
+    "2": "Connective_Soft_tissue",
+    "3": "Dead",
+    "4": "Epithelial"
+  },
+  "suitable_datasets": [
+    "CoNIC",
+    "CoNSeP",
+    "MoNuSAC",
+    "Lizard"
+  ],
+  "unsuitable_datasets": [
+    "BreakHis",
+    "LC25000"
+  ],
+  "limited_datasets": [
+    "MoNuSeg"
+  ],
+  "class_mappings": {
+    "CoNSeP": {
+      "2": "Inflammatory",
+      "3": "Epithelial",
+      "4": "Neoplastic",
+      "5": "Connective_Soft_tissue"
+    },
+    "CoNIC": {
+      "1": "Inflammatory",
+      "2": "Epithelial",
+      "3": "Inflammatory",
+      "4": "Inflammatory",
+      "5": "Inflammatory",
+      "6": "Connective_Soft_tissue"
+    },
+    "Lizard": {
+      "1": "Inflammatory",
+      "2": "Epithelial",
+      "3": "Inflammatory",
+      "4": "Inflammatory",
+      "5": "Inflammatory",
+      "6": "Connective_Soft_tissue"
+    },
+    "MoNuSAC": {
+      "Epithelial": "Epithelial",
+      "Lymphocyte": "Inflammatory",
+      "Macrophage": "Inflammatory",
+      "Neutrophil": "Inflammatory"
+    }
+  },
+  "evaluation_priority": [
+    {
+      "dataset": "CoNIC",
+      "priority": 1,
+      "reason": "Easy NumPy format, 4981 patches"
+    },
+    {
+      "dataset": "CoNSeP",
+      "priority": 2,
+      "reason": "HoVer-Net benchmark, has Neoplastic class"
+    },
+    {
+      "dataset": "MoNuSAC",
+      "priority": 3,
+      "reason": "Multi-organ, tests generalization"
+    },
+    {
+      "dataset": "Lizard",
+      "priority": 4,
+      "reason": "Large scale, requires preprocessing"
+    }
+  ]
+}

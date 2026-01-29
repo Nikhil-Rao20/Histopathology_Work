@@ -1,0 +1,144 @@
+{
+  "model_name": "lseg",
+  "experiment_name": "lseg_20260127_165728",
+  "mean_iou": 0.1040459156036377,
+  "std_iou": 0.010498180700341328,
+  "mean_dice": 0.13656581242879232,
+  "std_dice": 0.009155559591462739,
+  "fold_results": {
+    "fold_0": {
+      "best_iou": 0.10520581007003785,
+      "final_dice": 0.1378817915916443,
+      "history": {
+        "train_loss": [
+          2.3876624100114077,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        "val_loss": [
+          2.405278778076172,
+          2.4073255892955894,
+          2.407325587128148,
+          NaN,
+          NaN,
+          NaN
+        ],
+        "val_iou": [
+          0.10520581007003785,
+          0.10520581007003785,
+          0.10520581007003785,
+          0.10520581007003785,
+          0.10520581007003785,
+          0.10520581007003785
+        ],
+        "val_dice": [
+          0.1378817915916443,
+          0.1378817915916443,
+          0.1378817915916443,
+          0.1378817915916443,
+          0.1378817915916443,
+          0.1378817915916443
+        ]
+      },
+      "epochs_trained": 6
+    },
+    "fold_1": {
+      "best_iou": 0.09064767360687256,
+      "final_dice": 0.12475266456604003,
+      "history": {
+        "train_loss": [
+          2.3831001302753902,
+          2.381347532692651,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        "val_loss": [
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        "val_iou": [
+          0.09064767360687256,
+          0.09064767360687256,
+          0.09064767360687256,
+          0.09064767360687256,
+          0.09064767360687256,
+          0.09064767360687256
+        ],
+        "val_dice": [
+          0.12475266456604003,
+          0.12475266456604003,
+          0.12475266456604003,
+          0.12475266456604003,
+          0.12475266456604003,
+          0.12475266456604003
+        ]
+      },
+      "epochs_trained": 6
+    },
+    "fold_2": {
+      "best_iou": 0.11628426313400268,
+      "final_dice": 0.14706298112869262,
+      "history": {
+        "train_loss": [
+          2.385419723473059,
+          2.383929803016338,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        "val_loss": [
+          2.410507088718992,
+          2.4103688565167514,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        "val_iou": [
+          0.11628426313400268,
+          0.11628426313400268,
+          0.11628426313400268,
+          0.11628426313400268,
+          0.11628426313400268,
+          0.11628426313400268
+        ],
+        "val_dice": [
+          0.14706298112869262,
+          0.14706298112869262,
+          0.14706298112869262,
+          0.14706298112869262,
+          0.14706298112869262,
+          0.14706298112869262
+        ]
+      },
+      "epochs_trained": 6
+    }
+  },
+  "config": {
+    "num_classes": 5,
+    "image_size": 224,
+    "batch_size": 8,
+    "num_epochs": 20,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "num_folds": 3,
+    "clip_model": "ViT-B/16",
+    "freeze_clip": true,
+    "data_root": "/mnt/e3dbc9b9-6856-470d-84b1-ff55921cd906/Datasets/Nikhil/Histopathology_Work/Dataset",
+    "pannuke_preprocess_root": "/mnt/e3dbc9b9-6856-470d-84b1-ff55921cd906/Datasets/Nikhil/Histopathology_Work/PanNuke_Preprocess",
+    "results_dir": "/mnt/e3dbc9b9-6856-470d-84b1-ff55921cd906/Datasets/Nikhil/Histopathology_Work/results/lseg_20260127_165728",
+    "external_datasets_root": "/mnt/e3dbc9b9-6856-470d-84b1-ff55921cd906/Datasets/Nikhil/Histopathology_Work/Histopathology_Datasets_Official",
+    "device": "cuda",
+    "early_stopping_patience": 5
+  }
+}

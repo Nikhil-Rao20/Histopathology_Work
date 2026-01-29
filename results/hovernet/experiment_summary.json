@@ -1,0 +1,97 @@
+{
+  "experiment_info": {
+    "model": "HoverNet",
+    "model_mode": "fast",
+    "training_dataset": "PanNuke",
+    "evaluation_type": "3-Fold Cross-Validation",
+    "external_datasets": ["CoNSeP", "MoNuSAC"],
+    "experiment_date": "2026-01-25",
+    "timestamp": "2026-01-25T03:10:25.059433"
+  },
+  "configuration": {
+    "model_mode": "fast",
+    "nr_types": 6,
+    "input_shape": [256, 256],
+    "output_shape": [244, 244],
+    "batch_size": 4,
+    "num_epochs": 20,
+    "learning_rate": 0.0001,
+    "weight_decay": 1e-5,
+    "early_stopping_patience": 5,
+    "class_names": ["Background", "Neoplastic", "Inflammatory", "Connective", "Dead", "Epithelial"]
+  },
+  "pannuke_3fold_cv": {
+    "mean_metrics": {
+      "dice": {"mean": 0.7577, "std": 0.0031},
+      "aji": {"mean": 0.5625, "std": 0.0048},
+      "pq": {"mean": 0.5198, "std": 0.0115},
+      "dq": {"mean": 0.6439, "std": 0.0105},
+      "sq": {"mean": 0.8073, "std": 0.0056}
+    },
+    "per_fold": {
+      "fold1": {"dice": 0.7535, "aji": 0.5569, "pq": 0.5042, "dq": 0.6315, "sq": 0.7998},
+      "fold2": {"dice": 0.7587, "aji": 0.5621, "pq": 0.5314, "dq": 0.6571, "sq": 0.8089},
+      "fold3": {"dice": 0.7609, "aji": 0.5686, "pq": 0.5238, "dq": 0.6430, "sq": 0.8133}
+    },
+    "per_class_pq": {
+      "Neoplastic": {"mean": 0.5155, "std": 0.0725},
+      "Inflammatory": {"mean": 0.5763, "std": 0.0124},
+      "Connective": {"mean": 0.3136, "std": 0.0190},
+      "Dead": {"mean": 1.0000, "std": 0.0000},
+      "Epithelial": {"mean": 0.6429, "std": 0.0449}
+    }
+  },
+  "zero_shot_evaluation": {
+    "CoNSeP": {
+      "dice": {"mean": 0.2769, "std": 0.1852},
+      "aji": {"mean": 0.0316, "std": 0.0354},
+      "pq": {"mean": 0.0008, "std": 0.0022},
+      "dq": {"mean": 0.0014, "std": 0.0040},
+      "sq": {"mean": 0.0872, "std": 0.2145}
+    },
+    "MoNuSAC": {
+      "dice": {"mean": 0.1904, "std": 0.2041},
+      "aji": {"mean": 0.0996, "std": 0.1415},
+      "pq": {"mean": 0.1003, "std": 0.1431},
+      "dq": {"mean": 0.1277, "std": 0.1784},
+      "sq": {"mean": 0.3950, "std": 0.3847}
+    }
+  },
+  "fine_tuning_results": {
+    "CoNSeP": {
+      "dice": {"mean": 0.1816, "std": 0.1257},
+      "aji": {"mean": 0.0320, "std": 0.0306},
+      "pq": {"mean": 0.0034, "std": 0.0053},
+      "improvement_over_zero_shot": {
+        "dice": -0.0953,
+        "aji": 0.0004,
+        "pq": 0.0026
+      }
+    },
+    "MoNuSAC": {
+      "dice": {"mean": 0.3046, "std": 0.2274},
+      "aji": {"mean": 0.1411, "std": 0.1896},
+      "pq": {"mean": 0.1446, "std": 0.1991},
+      "improvement_over_zero_shot": {
+        "dice": 0.1142,
+        "aji": 0.0415,
+        "pq": 0.0443
+      }
+    }
+  },
+  "model_files": {
+    "pannuke_fold1_best": "models/hovernet_fold1_best.pth",
+    "pannuke_fold2_best": "models/hovernet_fold2_best.pth",
+    "pannuke_fold3_best": "models/hovernet_fold3_best.pth",
+    "consep_finetuned": "models/hovernet_consep_finetuned_best.pth",
+    "monusac_finetuned": "models/hovernet_monusac_finetuned_best.pth"
+  },
+  "key_findings": [
+    "HoverNet achieves Dice=0.76, AJI=0.56, PQ=0.52 on PanNuke 3-fold CV",
+    "Significant zero-shot performance gap on external datasets",
+    "Fine-tuning improves MoNuSAC performance (Dice +0.11, PQ +0.04)",
+    "CoNSeP fine-tuning shows limited improvement",
+    "Connective tissue class has lowest performance (PQ=0.31)",
+    "Dead cell class shows perfect PQ (likely due to few samples)"
+  ]
+}
