@@ -212,4 +212,4 @@ Dataset/multi_masks/*
 
 checkpoints/*
 *.pth
-Histopathology_Datasets_official/
+*
