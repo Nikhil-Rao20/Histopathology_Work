@@ -41,11 +41,7 @@ import torch.nn.functional as F
 import numpy as np
 from typing import Optional, List, Dict, Tuple
 
-import sys
-from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
-
-from experiments.cipsnet_v2.losses.losses import (
+from .losses import (
     HoVerNetLoss,
     get_class_frequencies_pannuke,
     get_pannuke_class_weights,

@@ -31,11 +31,7 @@ import numpy as np
 from typing import Optional, List, Dict, Tuple
 
 # Import base losses
-import sys
-from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
-
-from experiments.cipsnet_v2.losses.losses import (
+from .losses import (
     HoVerNetLoss,
     DRWScheduler,
     get_class_frequencies_pannuke,

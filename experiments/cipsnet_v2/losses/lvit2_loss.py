@@ -506,7 +506,7 @@ class LViT2Loss(nn.Module):
         self.use_drw = use_drw
         
         # Import base losses
-        from experiments.cipsnet_v2.losses.losses import NPLoss, HVLoss
+        from .losses import NPLoss, HVLoss
         
         # NP Loss (unchanged)
         self.np_loss = NPLoss(
